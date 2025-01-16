@@ -1,0 +1,121 @@
+/*PARENTS*/
+html {
+    background-color: #111111;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFFFFF;
+    border-left: solid 10px #31243d;
+}
+body {
+    margin: 0 0 50px 0;
+}
+/*FLEX*/
+.dir {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.dirButton {
+    flex: 1 1 auto;
+    transition: flex 0.2s ease-in-out;
+}
+.dirButton:hover {
+    flex: 5 1 auto;
+}
+/*DIRECTORY COLORS*/
+        .tasButton {
+            border-bottom: solid 5px#3f6139;
+        }
+        .salButton {
+            border-bottom: solid 5px#b45151;
+        }
+        .aloButton {
+            border-bottom: solid 5px#3a8699;
+        }
+        .domButton {
+            border-bottom: solid 5px#7c7fa3;
+        }
+        .velButton {
+            border-bottom: solid 5px#3f6139;
+        }
+        .shrButton {
+            border-bottom: solid 5px#611204;
+        }
+        .forButton {
+            border-bottom: solid 5px#655672;
+        }
+        .godButton {
+            border-bottom: solid 5px#b86db8;
+        }
+
+.rowCont {
+    display: flex;
+    align-items: center;
+}
+.colCont {
+    display: flex;
+    flex-direction: column;
+}
+/*elements*/
+img {
+    width: 75%;
+    max-width: 500px;
+    margin: 20px;
+    border-radius: 5px;
+}
+.landingImg {
+    float: left;
+}
+a {
+    padding: 20px;
+    font-size: 24px;
+    display: block;
+}
+h1 {
+    margin: 20px;
+}
+h2 {
+    margin: 30px;
+}
+h3 {
+    margin: 40px;
+}
+p {
+    margin: 0 40px 0 40px;
+    clear: left;
+}
+.indentP {
+    margin: 0 50px 0 50px;
+}
+span {
+    font-size: 12px;
+    margin: 0 0 0 20px;
+    opacity: 0.5;
+}
+/*DROP CONTENT*/
+.indentBtn {
+    flex: 1 1 auto;
+    padding: 0;
+    margin: -25px 0 -25px 0;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    flex: 1 1 auto;
+}
+.dropContent {
+    visibility: hidden;
+    position: absolute;
+    opacity: 0;
+    transition: opacity, transform, position, visibility;
+    transform: scaleY(0);
+    transform-origin: top;
+}
+.dropContent2 {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+    position: relative;
+    transition: opacity, transform, position, visibility;
+    transform-origin: top;
+}
