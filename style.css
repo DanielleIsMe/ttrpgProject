@@ -18,7 +18,7 @@ body {
 }
 .dirButton {
     flex: 1 1 auto;
-    transition: flex 0.2s ease-in-out;
+    transition: flex 0.5s ease-in-out;
 }
 .dirButton:hover {
     flex: 5 1 auto;
