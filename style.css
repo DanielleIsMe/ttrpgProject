@@ -4,7 +4,11 @@ html {
     background: linear-gradient(180deg, #111111, #1f1020);
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    border-left: solid 10px #60546b;
+    border-left: solid 5px #60546b;
+    border-right: solid 5px #60546b;
+    max-width: 900px;
+    text-align: justify;
+    margin: auto auto auto auto;
 }
 body {
     margin: 0 0 50px 0;
