@@ -102,7 +102,7 @@ p {
 .indentP {
     margin: 0 50px 0 75px;
 }
-span {
+.indicator {
     font-size: 12px;
     margin: 0 0 0 20px;
     opacity: 0.5;
